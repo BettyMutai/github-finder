@@ -10,28 +10,31 @@
 </head>
 
 <body>
-  <div class="jumbotron">
+  <div class="jumbotron" style="text-align: center;">
     <h1>Github</h1>
   </div>
   <div class="container">
     <div class="row">
-      <div class="col-md-2">
-        <img src="https://assets-cdn.github.com/images/modules/open_graph/github-octocat.png" alt="img" height="100px">
-      </div>
-      <div class="col-md-10">
-        <form>
+      <img src="https://assets-cdn.github.com/images/modules/open_graph/github-octocat.png" alt="img" height="100px">
+      <form>
         <input type="text" id="username" placeholder="Enter Github Name">
         <button type="button" id="search" class="btn btn-success"> Search Github </button>
       </form>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-md-6">
+        <div id="showAvatar">
+        </div>
       </div>
-      <div id="showAvatar">
-      </div>
-      <div id="showUser">
+      <div class="col-md-6">
+        <div id="showUser">
         </div>
         <div class="showRepos">
           <ul id="showRepos">
           </ul>
         </div>
+      </div>
     </div>
   </div>
 
